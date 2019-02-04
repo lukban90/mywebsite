@@ -1,0 +1,40 @@
+.circle {
+	/* code to make the content positioned relative to this element */
+	position: relative;
+	/* old code */
+     	border-radius: 50%;
+	float: left;
+        border: 1px solid black;		 
+      	font-size: 15px;	
+}
+
+.square {
+    	width: 0px;		  
+   	height: 0px;		  
+ 	padding-top: 100%;			
+     	padding-right: 100%;			 
+    	/* for visualization */			 
+    	/* background-color: tomato; */		
+}
+
+.content {			 
+      	  height: 0px;		 
+}
+
+.content::after, 
+.content::before {
+	content: attr(data-label);
+}
+
+.content::after {
+	position: absolute;
+	/* code to bring it in middle */
+	bottom: 50%;
+	right: 50%;
+	text-align: center;
+	transform: translate(50%, 50%);
+}
+
+.content::before {
+	color: transparent;
+}
