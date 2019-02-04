@@ -1,42 +1,40 @@
-.circle
-{
-	background: green; 
-	border-radius:50%; 
-	display: inline-block; 
+.circle {
+	background: green;
+	border-radius:50%;
+	display: inline-block;
 	margin:0 15px;
-       	height: 800px;
+	height: 800px;
 	width: 800px;
 }
 
 
-.circle-container
-{	
-	padding-top: 50px;	
+.circle-container {
+	padding-top: 50px;
 	text-align: center;
 }
 
 .outer {
-	  align-items: center;
-	    border: 1px solid #ccc;
-	      display: flex;
-	        height: 500px;
-		  justify-content: center;
-		    max-width: 100%;
-		      overflow: auto;
-		        padding: 50px;
-			  resize:both;
-		  }
+	align-items: center;
+	border: 1px solid #ccc;
+	display: flex;
+	height: 500px;
+	justify-content: center;
+	max-width: 100%;
+	overflow: auto;
+	padding: 50px;
+	resize:both;
+}
 
-		  svg {
-			    height: 100%;
-		    }
+svg {
+	height: 100%;
+}
 
-		    circle {
-			      fill: #3DB8A4;
-		      }
+circle {
+	fill: #3DB8A4;
+}
 
-		      text { 
-			        fill: #fff;
-				  font-size: 4rem;
-				    font-family: sans-serif;
-			    }
+text {
+	fill: #fff;
+	font-size: 4rem;
+	font-family: sans-serif;
+}
